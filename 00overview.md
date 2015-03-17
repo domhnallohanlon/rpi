@@ -6,7 +6,7 @@ By the end of this chapter you should have a Raspberry Pi with fully functioning
 
 To make your life a little easier (and load times a little quicker) this chapter is broken into five sections: 
     <ol>
-        <li> [Installing Raspbian ](00raspbian.html) [ [.pdf]](00raspbian.pdf)</li>
+        <li> [Installing Raspbian ](http://domhnallohanlon.github.io/rpi/00raspbian.html) [ [.pdf]](http://domhnallohanlon.github.io/rpi/00raspbian.pdf)</li>
         <li> [Installing TightVNC Server](00tightvncserver.html)</li>
         <li> [Installing PuTTY or similar](00putty.html)</li>
         <li> [Installing TightVNC Client](00tightvncclient.html)</li>
@@ -17,6 +17,6 @@ The links above give a detailed walkthrough of how to accomplish each step, or a
     
 ### What You'll Be Doing
 
-In a nutshell, to get through each workshop you'll have to be comfortable installing applications and executing commands from the terminal. If you're comfortable with all of this already you can probably procede to [Chapter 1](01overview.html)
+In a nutshell, to get through each workshop you'll have to be comfortable installing applications and executing commands from the terminal. If you're comfortable with all of this already you can probably procede to [Chapter 1](http://domhnallohanlon.github.io/rpi/01overview.html)
 
 
