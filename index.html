@@ -20,12 +20,20 @@
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="colours.css">
+    <!-- material design colours -->
+    <!-- production link
+    https://cdn.rawgit.com/domhnallohanlon/colours/master/colours.css
+     -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://rawgit.com/domhnallohanlon/colours/master/colours.css"> -->
+    
+    <!-- local copy -->
+    <link rel="stylesheet" href="colours.css">
+   
 
 </head>
 <body data-spy="scroll" data-target="#myLittleEye">
-<div class="navbar navbar-default navbar-fixed-top " style="background-color: #E91E63">
-    <div class="navbar-header">
+<div class="navbar navbar-default navbar-fixed-top raspberryBG">
+    <div class="navbar-header raspberryBG">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -33,9 +41,9 @@
         </button>
         <a class="navbar-brand" href="https://domhnallohanlon.github.io">Domhnall's Projects</a>
     </div>
-    <div class="navbar-collapse collapse navbar-responsive-collapse">
+    <div class="navbar-collapse collapse navbar-responsive-collapse raspberryBG">
         <ul class="nav navbar-nav">
-            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://twitter.com/domhnallohanlon" target="_blank">Twitter</a></li>
             <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
         </ul>
         <form class="navbar-form navbar-left">
@@ -46,21 +54,120 @@
 </div> <!-- navbar -->
 
 <div class="container">
+<div class="row">
+    <h2 class="text-center">Raspberry Pi Recipies</h2>
+</div>
+<div class="row">
+<div class="col-md-6">
+            <div class="panel ">
+            <div class="panel-heading panel-headingRaspberry">
+                <h3 class="panel-title ">Chapter 0: Setting Up Your Pi</h3>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <a class="pull-left" href="http://domhnallohanlon.github.io/rpi/00overview.html">
+                        <img class="media-object panel-image" src="img/logo.jpg" alt="Raspberry Pi Logo">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ingredients:</h4>
+                        <p>
+                            <ul>
+                                <li> Install Raspbian on your Pi</li>
+                                <li> Install TightVNC server on your Pi</li>
+                                <li> Establish Serial Communication from your computer</li>
+                                <li> Install a VNC Client on your computer</li>
+                                <li> Enjoy your headless Pi!</li>
+                            </ul>
+                        <a href="http://domhnallohanlon.github.io/rpi/00overview.html" class="btn btn-lg btn-responsive btn-success pull-right">Let's Go!</a>
+                        </p>
+                    </div>
+                </div>
 
- <div class="col-md-9">
+            </div>
+        </div>    
 
-    <div class="jumbotron" id="ai2">
-    <h1>
-        <span class="fa-stack raspberry">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-        </span> Setting up your Pi
-    </h1>
-    <p>First Steps</p>
-    <p><a href="https://domhnallohanlon.github.io" class="btn btn-primary btn-lg" style="background-color: #E91E63">Coming Soon</a></p>
-    </div> <!-- App Inventor Jumbotron -->
+</div>
 
- </div>
+<div class="col-md-6">
+        <div class="panel ">
+            <div class="panel-heading panel-headingRaspberry">
+                <h3 class="panel-title ">Chapter 1: Running a Web Server</h3>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <a class="pull-left" href="http://domhnallohanlon.github.io/rpi/01overview.html">
+                        <img class="media-object panel-image" src="img/lamp.png" alt="LAMP Logo">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ingredients:</h4>
+                        <p>
+                            <ul>
+                                <li> Apache</li>
+                                <li> MySQL</li>
+                                <li> PHP</li>
+                                <li> An Editor</li>
+                                <li> A Web Browser</li>
+                            </ul>
+                        <a href="http://domhnallohanlon.github.io/rpi/01overview.html" class="btn btn-lg btn-responsive btn-success pull-right">Let's Go!</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>    
+</div>
+</div> <!-- end of row 1 -->
+
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel ">
+            <div class="panel-heading panel-headingRaspberry">
+                <h3 class="panel-title ">Chapter 2: Personal Cloud</h3>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <a class="pull-left" href="http://domhnallohanlon.github.io/rpi">
+                        <img class="media-object panel-image" src="img/owncloud.png" alt="ownCloud Logo">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ingredients:</h4>
+                        <p>
+                        </p>
+
+                        <a href="#" class="btn btn-lg btn-responsive btn-success pull-right disabled">Coming Soon ... </a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>         
+    </div>
+
+    <div class="col-md-6">
+        <div class="panel ">
+            <div class="panel-heading panel-headingRaspberry">
+                <h3 class="panel-title ">Chapter 3: Make a Media Centre</h3>
+            </div>
+            <div class="panel-body">
+                <div class="media">
+                    <a class="pull-left" href="http://domhnallohanlon.github.io/rpi">
+                        <img class="media-object panel-image" src="img/kodi.png" alt="LAMP Logo">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ingredients:</h4>
+                        <p>
+
+                        <a href="#" class="btn btn-lg btn-responsive btn-success pull-right disabled">Coming Soon ...</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>         
+
+    </div>    
+</div> <!-- end of row 2 -->
 </div> <!-- container -->
       <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>  
 </body>

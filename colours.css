@@ -8,43 +8,83 @@ body {
     position: relative;
 }
 
+.panel-image{
+    width:64px;
+}
+
+.panel-headingRaspberry{
+    background-color:#E91E63;
+}
+
 .purple{
     color: #6A1B9A;
+}
+
+.purpleBG{
+    background-color: #6A1B9A;
 }
 
 .teal{
     color: #009688;
 }
 
+.tealBG{
+    background-color: #009688;
+}
+
 .orange{
     color: #FB8C00;
+}
+
+.orangeBG{
+    background-color: #FB8C00;
 }
 
 .light-green{
     color: #8BC34A;
 }
+.light-greenBG{
+    background-color: #8BC34A;
+}
 
 .red{
     color: #F44336;
+}
+.redBG{
+    background-color: #F44336;
 }
 
 .blue{
     color: #2196F3;
 }
+.blueBG{
+    background-color: #2196F3;
+}
 
 .blue-grey{
     color: #607D8B;
+}
+.blue-greyBG{
+    background-color: #607D8B;
 }
 
 .white{
     color: #ffffff;
 }
+.whiteBG{
+    background-color: #ffffff;
+}
 
 .raspberry{
     color:#E91E63;
+}
+.raspberryBG{
     background-color:#E91E63;
 }
 
 .orange{
     color:#FF9800;
+}
+.orangeBG{
+    background-color:#FF9800;
 }
