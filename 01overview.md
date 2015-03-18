@@ -6,7 +6,9 @@ By the end of this chapter you should have a fully functioning web server runnin
 ### Setting Up Your Web Server: An Overview
 Downloading and configuring a web server on your Raspberry Pi is relatively straightforward. Detailed walkthroughs of the steps required are included below.
     <ol>
-        <li> [Install LAMP](https://domhnallohanlon.github.io/rpi/01lamp.html) </li>
+        <li> [Install LAMP](https://domhnallohanlon.github.io/rpi/01lamp.html) 
+            [ [.pdf]](https://domhnallohanlon.github.io/rpi/01lamp.pdf)
+        </li>
         <li> [Configure your database](https://domhnallohanlon.github.io/rpi/01dbconfig.html)</li>
         <li> [Create a Web Site](https://domhnallohanlon.github.io/rpi/01website.html)</li>
         <li>Enable Port Forwarding (coming soon)</li>

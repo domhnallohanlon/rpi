@@ -9,10 +9,20 @@ Raspbian is an open source distribution (distro) and like any large piece of sof
 
 ### Raspbian (WHAT)
 
-Raspbian includes all the command you need to communicate directly with the hardware of your Pi. With this level of power comes a degree of responsibil
+Raspbian includes all the command you need to communicate directly with the hardware of your Pi. With this level of power comes a degree of responsibility - you can, with very little effot, delete every file from your computer. To mitigate against this the default user account does not have unlimited privileges. The operating system is what allows you to use peripherals connected to the USB ports, output information to a monitor or sounds through the audio jack. It is also the OS that allows applications, such as text or image editors, to communicate with and store files on the SD card or external media. 
 
 ### Raspbian (WHEN)
+When you boot tou Pi for the first time with a new SD card in it you will be prompted to choose an OS to install. This is a semi permanent operation, as whatever OS you choose will now be installed on the SD card and can only be replaced by fully formatting the card and going through the set-up prtocedure again.
+
 ### Raspbian (WHERE)
+Runs from the SD card, much like portable Linux which can run from a USB stick. 
+
 ### Raspbian (WHY)
+Why not? Raspbian has been specifically developed for the Raspberry Pi. It is easy to use and has everything you need to get started right out of the box. In addition, it is trivial to customise the look and feel of Raspbian and to install more applications.
+
 ### Raspbian (HOW)
+
+Walkthrough.
+
+Using the *raspi-config* tool
 

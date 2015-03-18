@@ -4,7 +4,7 @@ Now that we have a functioning web server, we can create and serve dynamic conte
 
 ### HTML
 
-__H__yper__t__ext __M__arkup __L__angague, or HTML, is the native language of the web. It was originally designed so that scientists could quickly and easliy generate and diseminate content to their network. 
+**H**yper**t**ext **M**arkup **L**angague, or HTML, is the native language of the web. It was originally designed so that scientists could quickly and easliy generate and diseminate content to their network. 
 HTML is a simple and flexible language that uses _tags_ to _markup_, or give meaning to, content. An HTML tag can be recognised by the brackets `< >` that surround it. Tags typically occur in pairs - corresponding opening and closing tags - but we will see some examples of self-closing tags too.
 
 Here's a very simple HTML page:
