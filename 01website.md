@@ -9,17 +9,19 @@ HTML is a simple and flexible language that uses _tags_ to _markup_, or give mea
 
 Here's a very simple HTML page:
 
-```HTML
-<html>
-    <head>
-        <title>My Web Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
+```html
+
+    <html>
+        <head>
+            <title>My Web Page</title>
+        </head>
+        <body>
+            <h1>Hello World!</h1>
 
 
-    </body>
-</html>
+        </body>
+    </html>
+
 ```
 
 ### CSS
