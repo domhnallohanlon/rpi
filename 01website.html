@@ -1014,16 +1014,23 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>01overview</title></head><body><article class="markdown-body"><h3 id="goal"><a name="user-content-goal" href="#goal" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Goal</h3>
-<p>By the end of this chapter you should have a fully functioning web server running on your Raspberry Pi. </p>
-<h3 id="setting-up-your-web-server-an-overview"><a name="user-content-setting-up-your-web-server-an-overview" href="#setting-up-your-web-server-an-overview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Setting Up Your Web Server: An Overview</h3>
-<p>Downloading and configuring a web server on your Raspberry Pi is relatively straightforward. Detailed walkthroughs of the steps required are included below.<br />
-    <ol><br />
-        <li> <a href="https://domhnallohanlon.github.io/rpi/01lamp.html">Install LAMP</a> </li><br />
-        <li> <a href="https://domhnallohanlon.github.io/rpi/01dbconfig.html">Configure your database</a></li><br />
-        <li> <a href="https://domhnallohanlon.github.io/rpi/01website.html">Create a Web Site</a></li><br />
-        <li>Enable Port Forwarding (coming soon)</li><br />
-        <!-- <li> <a href="https://domhnallohanlon.github.io/rpi/01portforwarding.html">Enable Port Forwarding</a></li> --><br />
-    </ol></p>
-<h3 id="what-youll-be-doing"><a name="user-content-what-youll-be-doing" href="#what-youll-be-doing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>What You&rsquo;ll Be Doing</h3>
-<p>A web server is a special type of computer that is configured specifically to serve web pages. Over 90% of the world&rsquo;s web servers run on Linux operating systems. The main difference between a commercial server and a Pi server is the speed at which the pages will be served.</p></article></body></html>
+</style><title>01website</title></head><body><article class="markdown-body"><h3 id="creating-a-website"><a name="user-content-creating-a-website" href="#creating-a-website" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Creating a Website</h3>
+<p>Now that we have a functioning web server, we can create and serve dynamic content to our viewers. Information that is stored in our database, such as usernames and passwords, can be accessed and used to deliver customised content to the visitor. In order to do this we&rsquo;ll first take a look and the HTML and CSS languages that are used to generate static sites and then introduce some PHP that can be used to generate server-side pages.</p>
+<h3 id="html"><a name="user-content-html" href="#html" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>HTML</h3>
+<p>__H__yper__t__ext __M__arkup __L__angague, or HTML, is the native language of the web. It was originally designed so that scientists could quickly and easliy generate and diseminate content to their network. <br />
+HTML is a simple and flexible language that uses <em>tags</em> to <em>markup</em>, or give meaning to, content. An HTML tag can be recognised by the brackets <code>&lt; &gt;</code> that surround it. Tags typically occur in pairs - corresponding opening and closing tags - but we will see some examples of self-closing tags too.</p>
+<p>Here&rsquo;s a very simple HTML page:</p>
+<pre><code class="HTML">&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;My Web Page&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello World!&lt;/h1&gt;
+
+
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<h3 id="css"><a name="user-content-css" href="#css" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>CSS</h3>
+<h3 id="php"><a name="user-content-php" href="#php" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>PHP</h3></article></body></html>

@@ -1014,16 +1014,25 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>01overview</title></head><body><article class="markdown-body"><h3 id="goal"><a name="user-content-goal" href="#goal" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Goal</h3>
-<p>By the end of this chapter you should have a fully functioning web server running on your Raspberry Pi. </p>
-<h3 id="setting-up-your-web-server-an-overview"><a name="user-content-setting-up-your-web-server-an-overview" href="#setting-up-your-web-server-an-overview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Setting Up Your Web Server: An Overview</h3>
-<p>Downloading and configuring a web server on your Raspberry Pi is relatively straightforward. Detailed walkthroughs of the steps required are included below.<br />
-    <ol><br />
-        <li> <a href="https://domhnallohanlon.github.io/rpi/01lamp.html">Install LAMP</a> </li><br />
-        <li> <a href="https://domhnallohanlon.github.io/rpi/01dbconfig.html">Configure your database</a></li><br />
-        <li> <a href="https://domhnallohanlon.github.io/rpi/01website.html">Create a Web Site</a></li><br />
-        <li>Enable Port Forwarding (coming soon)</li><br />
-        <!-- <li> <a href="https://domhnallohanlon.github.io/rpi/01portforwarding.html">Enable Port Forwarding</a></li> --><br />
-    </ol></p>
-<h3 id="what-youll-be-doing"><a name="user-content-what-youll-be-doing" href="#what-youll-be-doing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>What You&rsquo;ll Be Doing</h3>
-<p>A web server is a special type of computer that is configured specifically to serve web pages. Over 90% of the world&rsquo;s web servers run on Linux operating systems. The main difference between a commercial server and a Pi server is the speed at which the pages will be served.</p></article></body></html>
+</style><title>01lamp</title></head><body><article class="markdown-body"><h3 id="what-is-lamp"><a name="user-content-what-is-lamp" href="#what-is-lamp" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>What is LAMP</h3>
+<p><img alt="LAMP Logo" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/lamp.png" title="The LAMP Logo" /><br />
+LAMP is a collection software that is used to serve webpages over a network. </p>
+<h3 id="installation"><a name="user-content-installation" href="#installation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Installation</h3>
+<p>Installation is relatively straightforward, if you&rsquo;re logged in as the default user on your Raspbian-based Pi simply use apt-get:</p>
+<pre><code>    sudo apt-get install apache2 php5 php5-mysql mysql-server
+</code></pre>
+
+<p><img alt="Installing" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/lamp00.png" title="Installing as Root" /></p>
+<p>In the image above I&rsquo;m using the Pi as the super user, or root, so the <code>sudo</code> potion can be omitted. </p>
+<h3 id="apache"><a name="user-content-apache" href="#apache" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Apache</h3>
+<p><img alt="Apache" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/apache.png" title="Apache Logo" /></p>
+<p>The Apache Server is a popular, open-source server that transmits data between computers on a network using __H__yper __T__ext __T__ransfer __P__rotocol or HTTP. </p>
+<p>More information on the project can be found on the <a href="http://httpd.apache.org/" target="_blank">Apache website.</a></p>
+<h3 id="mysql"><a name="user-content-mysql" href="#mysql" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>MySQL</h3>
+<p><img alt="MySQL" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/mysql.png" title="MySQL Logo" /></p>
+<p>__S__tructured __Q__uery __L__anguage or SQL (usually pronounced &ldquo;sequel&rdquo;) is a simple language used for working with databased. </p>
+<p>More information on the open source MySQL project can be found on <a href="http://www.mysql.com/" target="_blank">their website</a></p>
+<h3 id="php"><a name="user-content-php" href="#php" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>PHP</h3>
+<p><img alt="PHP" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/php.png" title="PHP Logo" /></p>
+<p>__P__HP: __H__ypertext __P__rocessor, or PHP, is a scripting language that is used to render webpages on a server and then serve them to a visitor via their web browser.</p>
+<p>PHP files can typically be identified by the <code>.php</code> file extension.</p></article></body></html>
