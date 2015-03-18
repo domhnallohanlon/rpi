@@ -1014,27 +1014,39 @@ body .markdown-body
     page-break-after: avoid;
   }
 }
-</style><title>00overview</title></head><body><article class="markdown-body"><h3 id="goal"><a name="user-content-goal" href="#goal" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Goal</h3>
-<p>By the end of this chapter you should have a Raspberry Pi with fully functioning operating system and it should capable of running &ldquo;headless&rdquo; i.e. without a keyboard, mouse or monitor.</p>
-<h3 id="setting-up-your-raspberry-pi-an-overview"><a name="user-content-setting-up-your-raspberry-pi-an-overview" href="#setting-up-your-raspberry-pi-an-overview" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Setting Up Your Raspberry Pi: An Overview</h3>
-<p>To make your life a little easier (and load times a little quicker) this chapter is broken into five sections: <br />
-<ol><br />
-<li> <a href="http://domhnallohanlon.github.io/rpi/00raspbian.html">Installing Raspbian </a> <br />
-<a href="http://domhnallohanlon.github.io/rpi/00raspbian.pdf">[.pdf]</a><br />
-</li><br />
-<li><a href="http://domhnallohanlon.github.io/rpi/00tightvncserver.html">Installing TightVNC Server</a><br />
-<a href="http://domhnallohanlon.github.io/rpi/00tightvncserver.pdf">[.pdf]</a><br />
-</li><br />
-<li><a href="http://domhnallohanlon.github.io/rpi/00putty.html">Installing PuTTY</a><br />
-<a href="http://domhnallohanlon.github.io/rpi/00putty.pdf">[.pdf]</a><br />
-</li><br />
-<li> <a href="http://domhnallohanlon.github.io/rpi/00vncclient.html">Installing a VNC Client</a><br />
-<a href="http://domhnallohanlon.github.io/rpi/00vncclient.pdf">[.pdf]</a><br />
-</li><br />
-<li> <a href="http://domhnallohanlon.github.io/rpi/00terminal.html">Basic Terminal Commands</a><br />
-<a href="http://domhnallohanlon.github.io/rpi/00terminal.pdf">[.pdf]</a><br />
-    </li><br />
-</ol></p>
-<p>The links above give a detailed walkthrough of how to accomplish each step, or alternatively you can download the instructions as a PDF file for offline reading. The sections below give just a brief overview of the steps as well as introducing some of the Raspberry Pi and Linux terminology.</p>
-<h3 id="what-youll-be-doing"><a name="user-content-what-youll-be-doing" href="#what-youll-be-doing" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>What You&rsquo;ll Be Doing</h3>
-<p>In a nutshell, to get through each workshop you&rsquo;ll have to be comfortable installing applications and executing commands from the terminal. If you&rsquo;re comfortable with all of this already you can probably procede to <a href="http://domhnallohanlon.github.io/rpi/01overview.html">Chapter 1</a></p></article></body></html>
+</style><title>00tightvncserver</title></head><body><article class="markdown-body"><h3 id="vnc"><a name="user-content-vnc" href="#vnc" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>VNC</h3>
+<p>Virtual Network Computers allow you to remotely control computers over a network. VNC is a flexible protocol that has led to the creation of a number of powerful free and paid-for applications</p>
+<h3 id="tightvnc"><a name="user-content-tightvnc" href="#tightvnc" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>TightVNC</h3>
+<p>Accoring to their <a href="http://tightvnc.com/">website</a>:</p>
+<p>What is TightVNC?</p>
+<p>TightVNC is a free remote control software package. With TightVNC, you can see the desktop of a remote machine and control it with your local mouse and keyboard, just like you would do it sitting in the front of that computer. TightVNC is:</p>
+<ul>
+<li>free for both personal and commercial usage, with full source code available,</li>
+<li>useful in administration, tech support, education, and for many other purposes,</li>
+<li>cross-platform, available for Windows and Unix, with Java client included,<br />
+compatible with standard VNC software, conforming to RFB protocol specifications.</li>
+</ul>
+<p>With TightVNC, you can:</p>
+<ul>
+<li>cut your expenses and save your time on traveling,</li>
+<li>help your friends and family to solve problems with their computers remotely,</li>
+<li>make sure nothing wrong is happening on your computers when you are away.</li>
+</ul>
+<h3 id="installation"><a name="user-content-installation" href="#installation" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Installation</h3>
+<p>To install TightVNC Server on your Raspberry Pi Simply run the following command:</p>
+<pre><code> sud apt-get install tightvnc server
+</code></pre>
+
+<p>Click <kbd>Y</kbd> on your keyboard to agree and install.</p>
+<p><img alt="Command Line" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/server00.png" title="Installation Command" /></p>
+<h3 id="running"><a name="user-content-running" href="#running" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Running</h3>
+<p>The first time to run tightvncserver you will be prompted to enter an 8 character password.</p>
+<p><img alt="run" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/server01.png" title="Run tightvncserver" /></p>
+<p><img alt="pw" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/server02.png" title="Set password" /></p>
+<h3 id="thats-all-folks"><a name="user-content-thats-all-folks" href="#thats-all-folks" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>That&rsquo;s All Folks!</h3>
+<p>You don&rsquo;t have to specify a view-only password if you don&rsquo;t want to. Make a note of your VNC name, typically a number between 0 and 4. In the example below it&rsquo;s <code>raspberrypi:1</code></p>
+<p><img alt="running" src="///C://Users/Domhnall/Desktop/Work/Pi/notes/img/server03.png" title="X is now running." /></p>
+<p>That&rsquo;s everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using <a href="http://domhnallohanlon.github.io/rpi/00vncclient.html">a VNC client</a>. If you&rsquo;re not sure of your IP you should probably <a href="http://domhnallohanlon.github.io/rpi/00putty.html">SSH in</a> and run <code>ifconfig</code> to find out. </p>
+<h3 id="summary"><a name="user-content-summary" href="#summary" class="headeranchor-link" aria-hidden="true"><span class="headeranchor"></span></a>Summary</h3>
+<p>To go back to the chapter overview click <a href="http://domhnallohanlon.github.io/rpi/00raspbian.html">here</a></p>
+<p>To return to the Raspberry Pi Recipes page click <a href="http://domhnallohanlon.github.io/rpi">here</a></p></article></body></html>
