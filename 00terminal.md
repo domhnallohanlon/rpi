@@ -77,10 +77,10 @@ A quick `ls` will reveal that the file is now gone!
 
 ### Summary
 
-To go back to the chapter overview click [here](http://domhnallohanlon.github.io/rpi/00overview.html)
+To go back to the chapter overview click [here](mdwiki.html#!00overview.md)
 
 To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
 
 ### What's Next?
 
-Great stuff - why not try set up your own [web server?](http://domhnallohanlon.github.io/rpi/01overview.html)
+Great stuff - why not try set up your own [web server?](mdwiki.html#!01overview.md)

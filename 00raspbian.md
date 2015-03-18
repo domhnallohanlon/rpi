@@ -28,10 +28,10 @@ Using the *raspi-config* tool
 
 ### Summary
 
-To go back to the chapter overview click [here](http://domhnallohanlon.github.io/rpi/00overview.html)
+To go back to the chapter overview click [here](mdwiki.html#!00overview.md)
 
 To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
 
 ### What's Next?
 
-Get [tightvncserver](http://domhnallohanlon.github.io/rpi/00tightvncserver.html) installed on your Pi
+Get [tightvncserver](mdwiki.html#!00tightvncserver.md) installed on your Pi

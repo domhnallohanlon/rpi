@@ -10,7 +10,6 @@ HTML is a simple and flexible language that uses _tags_ to _markup_, or give mea
 Here's a very simple HTML page:
 
 ```html
-
     <html>
         <head>
             <title>My Web Page</title>
@@ -21,7 +20,6 @@ Here's a very simple HTML page:
 
         </body>
     </html>
-
 ```
 
 ### CSS

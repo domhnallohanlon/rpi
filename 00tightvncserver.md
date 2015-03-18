@@ -50,10 +50,10 @@ You don't have to specify a view-only password if you don't want to. Make a note
 ![running](http://domhnallohanlon.github.io/rpi/img/server03.png "X is now running.")
 
 
-That's everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using [a VNC client](http://domhnallohanlon.github.io/rpi/00vncclient.html). If you're not sure of your IP you should probably [SSH in](http://domhnallohanlon.github.io/rpi/00putty.html) and run `ifconfig` to find out. 
+That's everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using [a VNC client](mdwiki.html#!00vncclient.html). If you're not sure of your IP you should probably [SSH in](mdwiki.html#!00putty.html) and run `ifconfig` to find out. 
 
 ### Summary
 
-To go back to the chapter overview click [here](http://domhnallohanlon.github.io/rpi/00overview.html)
+To go back to the chapter overview click [here](mdwiki.html#!00overview.html)
 
-To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
+To return to the Raspberry Pi Recipes page click [here](https://domhnallohanlon.github.io/rpi)

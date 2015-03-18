@@ -6,19 +6,19 @@ By the end of this chapter you should have a Raspberry Pi with fully functioning
 
 To make your life a little easier (and load times a little quicker) this chapter is broken into five sections: 
 <ol>
-<li> [Installing Raspbian ](http://domhnallohanlon.github.io/rpi/00raspbian.html) 
+<li> [Installing Raspbian ](mdwiki.html#!00raspbian.md) 
     [[.pdf]](http://domhnallohanlon.github.io/rpi/00raspbian.pdf)
 </li>
-<li>[Installing TightVNC Server](http://domhnallohanlon.github.io/rpi/00tightvncserver.html)
+<li>[Installing TightVNC Server](mdwiki.html#!00tightvncserver.md)
     [[.pdf]](http://domhnallohanlon.github.io/rpi/00tightvncserver.pdf)
 </li>
-<li>[Installing PuTTY](http://domhnallohanlon.github.io/rpi/00putty.html)
+<li>[Installing PuTTY](mdwiki.html#!00putty.md)
     [[.pdf]](http://domhnallohanlon.github.io/rpi/00putty.pdf)
 </li>
-<li> [Installing a VNC Client](http://domhnallohanlon.github.io/rpi/00vncclient.html)
+<li> [Installing a VNC Client](mdwiki.html#!00vncclient.md)
     [[.pdf]](http://domhnallohanlon.github.io/rpi/00vncclient.pdf)
 </li>
-<li> [Basic Terminal Commands](http://domhnallohanlon.github.io/rpi/00terminal.html)
+<li> [Basic Terminal Commands](mdwiki.html#!00terminal.md)
     [[.pdf]](http://domhnallohanlon.github.io/rpi/00terminal.pdf)
     </li>
 </ol>
