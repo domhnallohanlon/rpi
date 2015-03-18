@@ -31,23 +31,23 @@ To install TightVNC Server on your Raspberry Pi Simply run the following command
 
 Click <kbd>Y</kbd> on your keyboard to agree and install.
 
-![Command Line](img/server00.png "Installation Command")
+![Command Line](http://domhnallohanlon.github.io/rpi/img/server00.png "Installation Command")
 
 
 ### Running 
 
 The first time to run tightvncserver you will be prompted to enter an 8 character password.
 
-![run](img/server01.png "Run tightvncserver")
+![run](http://domhnallohanlon.github.io/rpi/img/server01.png "Run tightvncserver")
 
-![pw](img/server02.png "Set password")
+![pw](http://domhnallohanlon.github.io/rpi/img/server02.png "Set password")
 
 
 ### That's All Folks!
 
 You don't have to specify a view-only password if you don't want to. Make a note of your VNC name, typically a number between 0 and 4. In the example below it's `raspberrypi:1`
 
-![running](img/server03.png "X is now running.")
+![running](http://domhnallohanlon.github.io/rpi/img/server03.png "X is now running.")
 
 
 That's everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using [a VNC client](http://domhnallohanlon.github.io/rpi/00vncclient.html). If you're not sure of your IP you should probably [SSH in](http://domhnallohanlon.github.io/rpi/00putty.html) and run `ifconfig` to find out. 
