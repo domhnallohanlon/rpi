@@ -80,3 +80,7 @@ A quick `ls` will reveal that the file is now gone!
 To go back to the chapter overview click [here](http://domhnallohanlon.github.io/rpi/00raspbian.html)
 
 To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
+
+### What's Next?
+
+Great stuff - why not try set up your own [web server?](http://domhnallohanlon.github.io/rpi/01overview.html)
