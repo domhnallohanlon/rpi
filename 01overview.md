@@ -18,3 +18,7 @@ Downloading and configuring a web server on your Raspberry Pi is relatively stra
 ### What You'll Be Doing
 
 A web server is a special type of computer that is configured specifically to serve web pages. Over 90% of the world's web servers run on Linux operating systems. The main difference between a commercial server and a Pi server is the speed at which the pages will be served.
+
+### Not What You're Looking For?
+
+To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)

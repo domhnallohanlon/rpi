@@ -29,4 +29,6 @@ The links above give a detailed walkthrough of how to accomplish each step, or a
 
 In a nutshell, to get through each workshop you'll have to be comfortable installing applications and executing commands from the terminal. If you're comfortable with all of this already you can probably procede to [Chapter 1](http://domhnallohanlon.github.io/rpi/01overview.html)
 
+### Not What You're Looking For?
 
+To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
