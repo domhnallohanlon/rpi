@@ -1,5 +1,9 @@
 # Setting Up A Web Server
 
+[gimmick:TwitterFollow](@therobotfoundry) 
+
+[gimmick:FacebookLike](https://facebook.com/therobotfoundry)
+
 ## Goal
 
 By the end of this chapter you should have a fully functioning web server running on your Raspberry Pi. 

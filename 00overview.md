@@ -1,5 +1,8 @@
 # Setting Up Your Raspberry Pi
 
+[gimmick:TwitterFollow](@therobotfoundry) 
+
+[gimmick:FacebookLike](https://facebook.com/therobotfoundry) 
 ## Goal
 
 By the end of this chapter you should have a Raspberry Pi with fully functioning operating system and it should capable of running "headless" i.e. without a keyboard, mouse or monitor.
