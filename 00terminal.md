@@ -1,4 +1,6 @@
-### Navigating
+# Basic Terminal Commands
+
+## Navigating
 
 To change directories use the `cd` command. Each sub-directory is seperated by a forward slash so for example we could have a file structure like so:
 
@@ -19,9 +21,9 @@ This can also be used with `/` to create a path to a specific directory. Let's a
 
 To view the contents of the directory you are in simply type `ls` to list all the files and directories.  
 
-### Working with files and folders
+## Working with files and folders
 
-#### Create a New File:
+### Create a New File:
 An easy way to create a new file is with the `touch` command. Lets create a new text file:
 
 ```
@@ -31,7 +33,7 @@ An easy way to create a new file is with the `touch` command. Lets create a new 
 
 Raspbian contains a few good text editors straight out of the box. Although Vim is probably more powerful, nano is a bit more user friendly. 
 
-#### Editing Text Files:
+### Editing Text Files:
 Let's edit *myFile.txt* using nano:
 
 ```
@@ -40,7 +42,7 @@ Let's edit *myFile.txt* using nano:
 
 Once you're happy with your changes, save and exit nano.
 
-#### Creating New Directories
+### Creating New Directories
 
 To create a new directory use the make directory, `mkdir` command, followed by the name you want to give your directory.
 
@@ -48,7 +50,7 @@ To create a new directory use the make directory, `mkdir` command, followed by t
  mkdir newFolder
 ```
 
-#### Moving Files 
+### Moving Files 
 Moving files is accomplished with the move command, `mv`. The move command needs two pieces of information. First you have to specify which file you wish to move, and secondly you need to tell it where you want to move the file to. Lets move *myFile.txt* into *newFolder*. 
 
 ```
@@ -57,7 +59,7 @@ Moving files is accomplished with the move command, `mv`. The move command needs
 
 If you now `cd` into *newFolder* and `ls` the contents you will see that your text file has been moved.
 
-#### Coping Files
+### Copying Files
 The copying command, `cp`, is used in much the same way as the `mv` command in that you have to specify first the file you want to copy and then tell it the file you want to copy it to. Lets create a copy of *myFile.txt* and call it *myFile2.txt* instead.
 
 ```
@@ -66,7 +68,7 @@ The copying command, `cp`, is used in much the same way as the `mv` command in t
 
 Again, you can specify full paths, so the files don't have to be in the same directory and your new file can have what ever name you want it to have. 
 
-#### Deleting Files
+### Deleting Files
 You can delete a file by using the remove command `rm`. If we want to remove our new *myFile2.txt* file we simple type: 
 
 ```
@@ -75,12 +77,12 @@ You can delete a file by using the remove command `rm`. If we want to remove our
 
 A quick `ls` will reveal that the file is now gone!
 
-### Summary
+## Summary
 
 To go back to the chapter overview click [here](mdwiki.html#!00overview.md)
 
 To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
 
-### What's Next?
+## What's Next?
 
 Great stuff - why not try set up your own [web server?](mdwiki.html#!01overview.md)

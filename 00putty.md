@@ -1,11 +1,22 @@
-### Download PuTTY
+# Downloading PuTTY
 
+## Get PuTTY
 
-### Run PuTTY
+You can download PuTTY directly from <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html" target="_blank">Simon Tatham's site</a>
 
-### Settings
+## Run PuTTY
 
-### Summary
+[](link)
+
+![Run](https://domhnallohanlon.github.io/rpi/img/putty00.png "Double click to run")
+
+![Running](https://domhnallohanlon.github.io/rpi/img/putty01.png "What you should see")
+
+## A Bit More About PuTTY
+
+## Settings
+
+## Summary
 
 To go back to the chapter overview click [here](mdwiki.html#!00overview.md)
 

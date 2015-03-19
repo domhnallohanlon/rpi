@@ -1,10 +1,12 @@
-### VNC
+# Installing tightvncserver
+
+## VNC
 
 Virtual Network Computers allow you to remotely control computers over a network. VNC is a flexible protocol that has led to the creation of a number of powerful free and paid-for applications
 
-###TightVNC
+##TightVNC
 
-Accoring to their [website](http://tightvnc.com/):
+Accoring to their <a href="http://tightvnc.com/" target="_blank">website</a>:
 
 What is TightVNC?
 
@@ -21,12 +23,12 @@ With TightVNC, you can:
  - help your friends and family to solve problems with their computers remotely,
  - make sure nothing wrong is happening on your computers when you are away.
 
-### Installation
+## Installation
 
 To install TightVNC Server on your Raspberry Pi Simply run the following command:
 
-```
- sud apt-get install tightvnc server
+```bash
+ sudo apt-get install tightvnc server
 ```
 
 Click <kbd>Y</kbd> on your keyboard to agree and install.
@@ -34,7 +36,7 @@ Click <kbd>Y</kbd> on your keyboard to agree and install.
 ![Command Line](http://domhnallohanlon.github.io/rpi/img/server00.png "Installation Command")
 
 
-### Running 
+## Running 
 
 The first time to run tightvncserver you will be prompted to enter an 8 character password.
 
@@ -43,16 +45,16 @@ The first time to run tightvncserver you will be prompted to enter an 8 characte
 ![pw](http://domhnallohanlon.github.io/rpi/img/server02.png "Set password")
 
 
-### That's All Folks!
+## That's All Folks!
 
 You don't have to specify a view-only password if you don't want to. Make a note of your VNC name, typically a number between 0 and 4. In the example below it's `raspberrypi:1`
 
 ![running](http://domhnallohanlon.github.io/rpi/img/server03.png "X is now running.")
 
 
-That's everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using [a VNC client](mdwiki.html#!00vncclient.html). If you're not sure of your IP you should probably [SSH in](mdwiki.html#!00putty.html) and run `ifconfig` to find out. 
+That's everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using [a VNC client](mdwiki.html#!00vncclient.md). If you're not sure of your IP you should probably [SSH in](mdwiki.html#!00putty.md) and run `ifconfig` to find out. 
 
-### Summary
+## Summary
 
 To go back to the chapter overview click [here](mdwiki.html#!00overview.html)
 
