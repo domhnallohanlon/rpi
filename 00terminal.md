@@ -24,12 +24,13 @@ To view the contents of the directory you are in simply type `ls` to list all th
 ## Working with files and folders
 
 ### Create a New File:
-An easy way to create a new file is with the `touch` command. Lets create a new text file:
+An easy way to create a new file is with the `touch` command. Lets create a new text file called _myFile_ :
 
 ```
  touch myFile.txt
 ```
- If you now run `ls` you should see that *myFile.txt* is now in your current directory.
+
+If you now run `ls` you should see that *myFile.txt* is now in your current directory.
 
 Raspbian contains a few good text editors straight out of the box. Although Vim is probably more powerful, nano is a bit more user friendly. 
 

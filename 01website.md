@@ -23,4 +23,6 @@ When working with collections of data, often you'll want to display it as a list
 
 
 
-## PHP
+## Moving Beyond Static Sites
+
+Although many plugins exist to add dynamic elements to static sites, it's still hard to beat a site or app that has access to it's own database and can server up pages dynamically. To explore one method of achieving this check out the tutorials on [PHP](mdwiki.html#!01php.md) and [MySQL](mdwiki#!01sql.md)
