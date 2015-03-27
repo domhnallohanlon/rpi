@@ -27,14 +27,17 @@
   - - - - 
   * # On Your Pi
   * [Install LAMP](01lamp.md)
-  * [Configure DB](01dbconfig.md)
-  * # Port Forwarding
   - - - - 
   * # Coding
   * [Build a Website](01website.md)
+  * [PHP](01php.md)
+  * [MySQL](01sql.md)
 
 [Own Cloud](02owncloud.md)
 - - - - 
-[Media Centre](soon.md)
+[Media Centre]()
+ * [RaspBMC](soon.md)
+ * [OpenELEC](soon.md)
+ * [Kodi](soon.md)
 
 [gimmick:theme (inverse:false)](flatly)
