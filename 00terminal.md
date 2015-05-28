@@ -41,7 +41,13 @@ Let's edit *myFile.txt* using nano:
  nano myFile.txt
 ```
 
-Once you're happy with your changes, save and exit nano.
+If you're not the super user on your machine you'll have to preface most command with `sudo` or "super user do" like so:
+
+```
+sudo nano myFile.txt
+```
+
+Once you're happy with your changes, save and exit nano. The keyboard shortcuts are displayed along the bottom of the screen so just hit __CTRL__ + __O__ to write out (i.e. save) the contents of your file to disk and then __CRTL__ + __X__ to exit nano. 
 
 ### Creating New Directories
 
