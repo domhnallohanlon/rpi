@@ -30,6 +30,8 @@ An easy way to create a new file is with the `touch` command. Lets create a new 
  touch myFile.txt
 ```
 
+You can also create new files using the `cat` command. See <a href="#Outputting_information_to_the_terminal">the section below </a>for more.
+
 If you now run `ls` you should see that *myFile.txt* is now in your current directory.
 
 Raspbian contains a few good text editors straight out of the box. Although Vim is probably more powerful, nano is a bit more user friendly. 
@@ -62,7 +64,8 @@ Moving files is accomplished with the move command, `mv`. The move command needs
 
 ```
  mv myFile.txt newFolder
-``` 
+
+```
 
 If you now `cd` into *newFolder* and `ls` the contents you will see that your text file has been moved.
 
@@ -83,6 +86,28 @@ You can delete a file by using the remove command `rm`. If we want to remove our
 ```
 
 A quick `ls` will reveal that the file is now gone!
+
+### Deleting Folders
+
+To delete a folder, the computer essentailly has to go into the folder, delete it's entire contents and then delete the folder itself. This is acheived by passing the following arguments (or flags) to the remove command:
+
+```
+rm -r -f myFolder
+```
+
+the `-r` flag means that the command should be called recursively (similar to repeatedly) and the `-f` flag means force, in other words, you're telling the computer "I know what I want to do here, go ahead and do what I've told you to do."
+
+### Outputting information to the terminal  
+
+This can be done using the `cat` command which is short for concatenate. For example, the code:
+
+```
+cat myFile.txt
+```
+
+will print the contents of `myFile.txt` to the terminal.
+
+### Sorting the Contents of a File
 
 ## Summary
 

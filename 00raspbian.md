@@ -23,7 +23,7 @@ Why not? Raspbian has been specifically developed for the Raspberry Pi. It is ea
 
 ### Raspbian (HOW)
 
-Walkthrough.
+Attention: As of Raspbian 1.4 (Feb 2015), the images below are no longer shown when you first start your Pi.
 
 Using the *raspi-config* tool
 
