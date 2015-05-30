@@ -25,6 +25,15 @@ Why not? Raspbian has been specifically developed for the Raspberry Pi. It is ea
 
 Attention: As of Raspbian 1.4 (Feb 2015), the images below are no longer shown when you first start your Pi.
 
+![Welcome](img/slides/A.png " &#13; Welcome to your Raspberry Pi")
+![About](img/slides/B.png " &#13; Open Source Software FTW!")
+![Log In](img/slides/C.png "Username: pi Password: raspberry")
+![First](img/slides/D.png "Type 'sudo raspi-config' to reopen.")
+![GUI](img/slides/E.png "Type 'startx' for graphics!")
+![Free Stuff](img/slides/F.png "Scratch Visual Programming")
+![Store](img/slides/G.png "App Store.")
+
+
 Using the *raspi-config* tool
 
 ## Summary
