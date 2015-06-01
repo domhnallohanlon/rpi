@@ -115,6 +115,8 @@ To go back to the chapter overview click [here](mdwiki.html#!00overview.md)
 
 To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
 
+Notice: You can find more termial commands (and plenty more besides) over on <a href="http://ss64.com" target="_blank">SS64.com</a>. There are lots of references to get help you find your way around the command line.
+
 ## What's Next?
 
 Great stuff - why not try set up your own [web server?](mdwiki.html#!01overview.md)
