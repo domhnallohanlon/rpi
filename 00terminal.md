@@ -108,14 +108,53 @@ cat myFile.txt
 will print the contents of `myFile.txt` to the terminal.
 
 ### Sorting the Contents of a File
+Let's create a text file, called _computers.txt_ that contains some computer manufacturers. 
 
+```
+touch computers.txt
+```
+
+We'll then edit it to add some data:
+
+```
+sudo nano computers.txt
+```
+
+
+Add in some different manufacturers, for example: HP, Lenovo, Raspberry Pi, Asus, Acer, Apple, Dell, Compaq etc.
+
+To sort the contents of this file alphabetically simply type:
+
+```
+sort computers.txt
+```
+
+and the entries will be listed from A to Z.
+
+To sort in reverse alphabetical order:
+
+```
+sort -r computers.txt
+```
+
+To sort numerical data:
+
+```
+sort -n myNumbers.txt
+```
+
+It is also possible to sort months in their correct chronological order:
+
+```
+sort -M someMonths.txt
+```
 ## Summary
 
 To go back to the chapter overview click [here](mdwiki.html#!00overview.md)
 
 To return to the Raspberry Pi Recipes page click [here](http://domhnallohanlon.github.io/rpi)
 
-Notice: You can find more termial commands (and plenty more besides) over on <a href="http://ss64.com" target="_blank">SS64.com</a>. There are lots of references to get help you find your way around the command line.
+Note: You can find more termial commands (and plenty more besides) over on <a href="http://ss64.com" target="_blank">SS64.com</a>. There are lots of references to get help you find your way around the command line.
 
 ## What's Next?
 
