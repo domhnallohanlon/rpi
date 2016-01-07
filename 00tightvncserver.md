@@ -1,4 +1,4 @@
-# Installing tightvncserver
+# Installing a VNC Server
 
 ## VNC
 
@@ -23,12 +23,12 @@ With TightVNC, you can:
  - help your friends and family to solve problems with their computers remotely,
  - make sure nothing wrong is happening on your computers when you are away.
 
-## Installation
+### Installation
 
 To install TightVNC Server on your Raspberry Pi Simply run the following command:
 
 ```bash
- sudo apt-get install tightvnc server
+ sudo apt-get install tightvncserver
 ```
 
 Click <kbd>Y</kbd> on your keyboard to agree and install.
@@ -36,7 +36,7 @@ Click <kbd>Y</kbd> on your keyboard to agree and install.
 ![Command Line](http://domhnallohanlon.github.io/rpi/img/server00.png "Installation Command")
 
 
-## Running 
+### Running 
 
 The first time to run tightvncserver you will be prompted to enter an 8 character password.
 
@@ -45,7 +45,12 @@ The first time to run tightvncserver you will be prompted to enter an 8 characte
 ![pw](http://domhnallohanlon.github.io/rpi/img/server02.png "Set password")
 
 
-## That's All Folks!
+###Autostart
+Now that we have the ability to allow remote desktop access it would be great if we could start tightvncserver automagically, thereby eliminating the need to ever plug our Pi into a screen in the first place. Click on the image below for a screencast of how to achive this.
+
+[![asciicast](https://asciinema.org/a/24902.png)](https://asciinema.org/a/24902)
+
+### That's All Folks!
 
 You don't have to specify a view-only password if you don't want to. Make a note of your VNC name, typically a number between 0 and 4. In the example below it's `raspberrypi:1`
 
@@ -53,6 +58,8 @@ You don't have to specify a view-only password if you don't want to. Make a note
 
 
 That's everything you need to do to get tightvncserver running on your Raspberry Pi. If you know your IP address you can take remote control of your Pi using [a VNC client](mdwiki.html#!00vncclient.md). If you're not sure of your IP you should probably [SSH in](mdwiki.html#!00putty.md) and run `ifconfig` to find out. 
+
+
 
 ## Summary
 
